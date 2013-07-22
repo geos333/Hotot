@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Hotot_mac' target in the 'Hotot_mac' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
