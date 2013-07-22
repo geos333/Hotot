@@ -1,0 +1,660 @@
+THotot
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Info.plist Hotot_mac/Hotot-Info.plist
+cProcessPCH /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch.pth Hotot_mac/Hotot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/AppDelegate.o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/main.o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototWindowController.o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototViewController.o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HUDImageController.o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HUDImageController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/TweetWindowController.o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/MacOS/Hotot normal x86_64
+cGenerateDSYMFile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app.dSYM /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/MacOS/Hotot
+cCopyStringsFile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/InfoPlist.strings Hotot_mac/en.lproj/InfoPlist.strings
+cCpResource Hotot_mac/en.lproj/Credits.rtf Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototView.xib
+cCompileXIB /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototWindow.xib
+cCompileXIB /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/MainMenu.xib
+cCompileXIB /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HUDImage.xib
+cCpResource Databases.db Build/Products/Release/Hotot.app/Contents/Resources/Databases.db
+cCompileXIB /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/TweetWindow.xib
+cCpResource Hotot_mac/../../data/image/ic24_hotot_mono_light.png Build/Products/Release/Hotot.app/Contents/Resources/ic24_hotot_mono_light.png
+cCpResource ../data Build/Products/Release/Hotot.app/Contents/Resources/data
+cCpResource Hotot_mac/../hotot.icns Build/Products/Release/Hotot.app/Contents/Resources/hotot.icns
+cPBXCp Hotot_mac/Frameworks/Sparkle.framework Build/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.framework
+cPBXCp Hotot_mac/Frameworks/Growl.framework Build/Products/Release/Hotot.app/Contents/Frameworks/Growl.framework
+cTouch /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c0000000051C2D944000000000024BEE4
+t1371724100
+s2408164
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000051C2D94400000000000025C8
+t1371724100
+s9672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000051C2D94400000000000001E5
+t1371724100
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c0000000051C2D9440000000000045D30
+t1371724100
+s286000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051C2D94500000000000C4BAC
+t1371724101
+s805804
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c0000000051C2D9470000000000087CE4
+t1371724103
+s556260
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/../data
+c0000000051E5545400000000000001DC
+t1373983828
+s476
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/AppDelegate.o
+t1374486450
+s70400
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HUDImageController.o
+t1374486449
+s41476
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/Hotot.LinkFileList
+c0000000051ECFFA70000000000000370
+t1374486439
+s880
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototViewController.o
+t1374486450
+s73388
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototWindowController.o
+t1374486450
+s25576
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/TweetWindowController.o
+t1374486449
+s24212
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/main.o
+t1374486448
+s2960
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch.pth
+t1374486447
+s12864104
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app
+t1374486462
+s102
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app.dSYM
+t1374486451
+s102
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Growl.framework
+t1374486462
+s204
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.framework
+t1374486462
+s204
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Info.plist
+t1374486439
+s1410
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/MacOS/Hotot
+t1374486451
+s72156
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/PkgInfo
+t1374486439
+s8
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/Databases.db
+t1374486460
+s20480
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/data
+t1374486461
+s442
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/Credits.rtf
+t1374486451
+s2049
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/HUDImage.nib
+t1374486460
+s4041
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/HototView.nib
+t1374486460
+s1470
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/HototWindow.nib
+t1374486460
+s2054
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1374486451
+s92
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/MainMenu.nib
+t1374486460
+s7482
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/TweetWindow.nib
+t1374486460
+s3728
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/hotot.icns
+t1374486461
+s50017
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/ic24_hotot_mono_light.png
+t1374486460
+s1061
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Databases.db
+c000000004EBE59B40000000000005000
+t1321097652
+s20480
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/../../data/image/ic24_hotot_mono_light.png
+c0000000051E507940000000000000425
+t1373964180
+s1061
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/../hotot.icns
+c0000000051ECF8C3000000000000C361
+t1374484675
+s50017
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.h
+c0000000051ED016B000000000000027A
+t1374486891
+s634
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m
+c0000000051ED016B00000000000013A4
+t1374486891
+s5028
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Growl.framework
+c000000004EBE59B400000000000000CC
+t1321097652
+s204
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Growl.framework/Growl
+c000000004EBE59B4000000000003F67C
+t1321097652
+s259708
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Growl.framework/Headers/Growl.h
+c000000004EBE59B40000000000000082
+t1321097652
+s130
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Growl.framework/Headers/GrowlApplicationBridge-Carbon.h
+c000000004EBE59B40000000000008673
+t1321097652
+s34419
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Growl.framework/Headers/GrowlApplicationBridge.h
+c000000004EBE59B40000000000006B1D
+t1321097652
+s27421
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Growl.framework/Headers/GrowlDefines.h
+c000000004EBE59B40000000000003D75
+t1321097652
+s15733
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Sparkle.framework
+c000000004EBE59B400000000000000CC
+t1321097652
+s204
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Sparkle.framework/Sparkle
+c000000004EBE59B400000000000712B4
+t1321097652
+s463540
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HUDImageController.h
+c0000000051ECFE9A000000000000022D
+t1374486170
+s557
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HUDImageController.m
+c0000000051ECFE9A00000000000009CF
+t1374486170
+s2511
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Hotot-Prefix.pch
+c0000000051ECF0AC0000000000000095
+t1374482604
+s149
+i<Cocoa/Cocoa.h>
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.h
+c0000000051ECFE3E000000000000067B
+t1374486078
+s1659
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m
+c0000000051ECFE4B0000000000003673
+t1374486091
+s13939
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototWindowController.h
+c0000000051ECFE6400000000000001C0
+t1374486116
+s448
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototWindowController.m
+c0000000051ECFE9A0000000000000393
+t1374486170
+s915
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.h
+c0000000051ECFE9A00000000000001BF
+t1374486170
+s447
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.m
+c0000000051ECFE9600000000000002AF
+t1374486166
+s687
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/Credits.rtf
+c0000000051ECF35F0000000000000801
+t1374483295
+s2049
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HUDImage.xib
+c0000000051E6610800000000000041AF
+t1374052616
+s16815
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototView.xib
+c000000004EBE59B40000000000001C23
+t1321097652
+s7203
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototWindow.xib
+c0000000051E7873B00000000000023DF
+t1374127931
+s9183
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/InfoPlist.strings
+c0000000051ECF0AC000000000000002D
+t1374482604
+s45
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/MainMenu.xib
+c0000000051ECF74C00000000000090FA
+t1374484300
+s37114
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/TweetWindow.xib
+c000000004EBE59B40000000000003C63
+t1321097652
+s15459
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/hotot.h
+c0000000051ECFE2800000000000002EF
+t1374486056
+s751
+
+N/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/main.m
+c0000000051ECF0AC00000000000000ED
+t1374482604
+s237
+
+NHotot_mac/Hotot-Info.plist
+c0000000051ED015C0000000000000445
+t1374486876
+s1093
+
+CBuild AST from /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m
+r0
+
+CBuild AST from /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HUDImageController.m
+r0
+
+CBuild AST from /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m
+r0
+
+CBuild AST from /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototWindowController.m
+r0
+
+CBuild AST from /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.m
+r0
+
+CBuild AST from /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies410f09ec389db741^6b6285ec389db741^---0#1#0#--18"Check dependencies36"464F91B5-C530-4852-A091-F41AB1AFD86A-
+
+CCompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/AppDelegate.o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396179692.578970
+e396179697.454333
+r1
+xCompileC
+xBuild/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m:54:5: warning: instance method '-showImageWithURL:' not found (return type defaults to 'id') [-Wobjc-method-access]
+o    [hudImageController showImageWithURL:imageURL];
+o    ^                   ~~~~~~~~~~~~~~~~
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m:96:5: warning: instance method '-showTweetWindow' not found (return type defaults to 'id') [-Wobjc-method-access]
+o    [hototWindowController showTweetWindow];
+o    ^                      ~~~~~~~~~~~~~~~
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m:99:5: warning: instance method '-showPrefWindow' not found (return type defaults to 'id') [-Wobjc-method-access]
+o    [hototWindowController showPrefWindow];
+o    ^                      ~~~~~~~~~~~~~~
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m:102:5: warning: instance method '-showAboutWindow' not found (return type defaults to 'id') [-Wobjc-method-access]
+o    [hototWindowController showAboutWindow];
+o    ^                      ~~~~~~~~~~~~~~~
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m:121:5: warning: instance method '-doCopy' not found (return type defaults to 'id') [-Wobjc-method-access]
+o    [hototWindowController.hototViewController doCopy];
+o    ^                                          ~~~~~~
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m:125:5: warning: instance method '-doPaste' not found (return type defaults to 'id') [-Wobjc-method-access]
+o    [hototWindowController.hototViewController doPaste];
+o    ^                                          ~~~~~~~
+o6 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.ma75d94ec389db741^1e4e74f1389db741^-1738"/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m:54:5: warning: instance method '-showImageWithURL:' not found (return type defaults to 'id') [-Wobjc-method-access]    [hudImageController showImageWithURL:imageURL];    ^                   ~~~~~~~~~~~~~~~~/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m:96:5: warning: instance method '-showTweetWindow' not found (return type defaults to 'id') [-Wobjc-method-access]    [hototWindowController showTweetWindow];    ^                      ~~~~~~~~~~~~~~~/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m:99:5: warning: instance method '-showPrefWindow' not found (return type defaults to 'id') [-Wobjc-method-access]    [hototWindowController showPrefWindow];    ^                      ~~~~~~~~~~~~~~/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m:102:5: warning: instance method '-showAboutWindow' not found (return type defaults to 'id') [-Wobjc-method-access]    [hototWindowController showAboutWindow];    ^                      ~~~~~~~~~~~~~~~/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m:121:5: warning: instance method '-doCopy' not found (return type defaults to 'id') [-Wobjc-method-access]    [hototWindowController.hototViewController doCopy];    ^                                          ~~~~~~/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m:125:5: warning: instance method '-doPaste' not found (return type defaults to 'id') [-Wobjc-method-access]    [hototWindowController.hototViewController doPaste];    ^                                          ~~~~~~~6 warnings generated.6(36%IDEClangDiagnosticActivityLogMessage2@77"Instance method '-showImageWithURL:' not found (return type defaults to 'id')-396179697#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^53#4#53#4#1798#0#14"Semantic Issue1(3@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^53#24#53#40#1818#0#-2@75"Instance method '-showTweetWindow' not found (return type defaults to 'id')-396179697#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^95#4#95#4#3293#0#14"Semantic Issue1(3@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^95#27#95#42#3316#0#-2@74"Instance method '-showPrefWindow' not found (return type defaults to 'id')-396179697#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^98#4#98#4#3378#0#14"Semantic Issue1(3@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^98#27#98#41#3401#0#-2@75"Instance method '-showAboutWindow' not found (return type defaults to 'id')-396179697#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^101#4#101#4#3463#0#14"Semantic Issue1(3@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^101#27#101#42#3486#0#-2@66"Instance method '-doCopy' not found (return type defaults to 'id')-396179697#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^120#4#120#4#3975#0#14"Semantic Issue1(3@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^120#47#120#53#4018#0#-2@67"Instance method '-doPaste' not found (return type defaults to 'id')-396179697#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^124#4#124#4#4065#0#14"Semantic Issue1(3@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^124#47#124#54#4108#0#-0#0#0#-19%DVTDocumentLocation4@93"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m0000000000000000^3381"CompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/AppDelegate.o Hotot_mac/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-generated-files.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-own-target-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-all-target-headers.hmap -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-project-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources/x86_64 -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks -include /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch -MMD -MT dependencies -MF /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/AppDelegate.m -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/AppDelegate.o36"7CE3E0D6-E267-42B8-89BE-50BCF722AABB-
+
+CCompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HUDImageController.o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HUDImageController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396179248.802155
+e396179249.824994
+r1
+xCompileC
+xBuild/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HUDImageController.o
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HUDImageController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HUDImageController.mfd86cd30379db741^7f31d331379db741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HUDImageController.m0000000000000000^3423"CompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HUDImageController.o Hotot_mac/HUDImageController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-generated-files.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-own-target-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-all-target-headers.hmap -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-project-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources/x86_64 -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks -include /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch -MMD -MT dependencies -MF /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HUDImageController.d --serialize-diagnostics /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HUDImageController.dia -c /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HUDImageController.m -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HUDImageController.o36"C1C84D52-17E8-48CA-BD13-A8B3531D4524-
+
+CCompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototViewController.o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396179247.633929
+e396179250.230188
+r1
+xCompileC
+xBuild/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototViewController.o
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:104:29: warning: instance method '-setHototStatus:' not found (return type defaults to 'id') [-Wobjc-method-access]
+o                            [[NSApp delegate] setHototStatus:HototStatusLoadFinished];
+o                            ^                 ~~~~~~~~~~~~~~
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:118:21: warning: multiple methods named 'terminate' found
+o                    [NSApp terminate];
+o                    ^~~~~~~~~~~~~~~~~
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSTask.h:54:1: note: using
+o- (void)terminate; // Not always possible. Sends SIGTERM.
+o^~~~~~~~~~~~~~~~~~
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSRunningApplication.h:139:1: note: also found
+o- (BOOL)terminate;
+o^~~~~~~~~~~~~~~~~~
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:137:21: warning: instance method '-setHototStatus:' not found (return type defaults to 'id') [-Wobjc-method-access]
+o                    [[NSApp delegate] setHototStatus:HototStatusSignin];
+o                    ^                 ~~~~~~~~~~~~~~
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:170:13: warning: instance method '-showHUDImage:' not found (return type defaults to 'id') [-Wobjc-method-access]
+o            [[NSApp delegate] showHUDImage:[request URL]];
+o            ^                 ~~~~~~~~~~~~
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:258:9: warning: instance method '-onSecurityError' not found (return type defaults to 'id') [-Wobjc-method-access]
+o        [[NSApp delegate] onSecurityError];
+o        ^                 ~~~~~~~~~~~~~~~
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:254:15: warning: unused variable 'source' [-Wunused-variable]
+o    NSString *source  = [dictionary objectForKey:@"sourceURL"];
+o              ^
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:255:15: warning: unused variable 'line' [-Wunused-variable]
+o    NSNumber *line    = [dictionary objectForKey:@"lineNumber"];
+o              ^
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:276:5: warning: instance method '-setDatabasesEnabled:' not found (return type defaults to 'id') [-Wobjc-method-access]
+o    [prefs setDatabasesEnabled:YES];
+o    ^      ~~~~~~~~~~~~~~~~~~~
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:319:5: warning: instance method '-setHototStatus:' not found (return type defaults to 'id') [-Wobjc-method-access]
+o    [[NSApp delegate] setHototStatus: HototStatusInit];
+o    ^                 ~~~~~~~~~~~~~~
+o9 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m8b6da22f379db741^917f3e32379db741^-3026"/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:104:29: warning: instance method '-setHototStatus:' not found (return type defaults to 'id') [-Wobjc-method-access]                            [[NSApp delegate] setHototStatus:HototStatusLoadFinished];                            ^                 ~~~~~~~~~~~~~~/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:118:21: warning: multiple methods named 'terminate' found                    [NSApp terminate];                    ^~~~~~~~~~~~~~~~~/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSTask.h:54:1: note: using- (void)terminate; // Not always possible. Sends SIGTERM.^~~~~~~~~~~~~~~~~~/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSRunningApplication.h:139:1: note: also found- (BOOL)terminate;^~~~~~~~~~~~~~~~~~/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:137:21: warning: instance method '-setHototStatus:' not found (return type defaults to 'id') [-Wobjc-method-access]                    [[NSApp delegate] setHototStatus:HototStatusSignin];                    ^                 ~~~~~~~~~~~~~~/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:170:13: warning: instance method '-showHUDImage:' not found (return type defaults to 'id') [-Wobjc-method-access]            [[NSApp delegate] showHUDImage:[request URL]];            ^                 ~~~~~~~~~~~~/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:258:9: warning: instance method '-onSecurityError' not found (return type defaults to 'id') [-Wobjc-method-access]        [[NSApp delegate] onSecurityError];        ^                 ~~~~~~~~~~~~~~~/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:254:15: warning: unused variable 'source' [-Wunused-variable]    NSString *source  = [dictionary objectForKey:@"sourceURL"];              ^/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:255:15: warning: unused variable 'line' [-Wunused-variable]    NSNumber *line    = [dictionary objectForKey:@"lineNumber"];              ^/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:276:5: warning: instance method '-setDatabasesEnabled:' not found (return type defaults to 'id') [-Wobjc-method-access]    [prefs setDatabasesEnabled:YES];    ^      ~~~~~~~~~~~~~~~~~~~/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m:319:5: warning: instance method '-setHototStatus:' not found (return type defaults to 'id') [-Wobjc-method-access]    [[NSApp delegate] setHototStatus: HototStatusInit];    ^                 ~~~~~~~~~~~~~~9 warnings generated.9(36%IDEClangDiagnosticActivityLogMessage2@75"Instance method '-setHototStatus:' not found (return type defaults to 'id')-396179250#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^103#28#103#28#4903#0#14"Semantic Issue1(3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^103#46#103#60#4921#0#-2@40"Multiple methods named 'terminate' found-396179250#18446744073709551615#0#2(2@5"Using-396179250#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@178"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSTask.h0000000000000000^53#0#53#0#1462#0#21"Clang LLVM 1.0 Notice1(3@178"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSTask.h0000000000000000^53#0#53#18#1462#17#-2@10"Also found-396179250#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@188"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSRunningApplication.h0000000000000000^138#0#138#0#8113#0#21"Clang LLVM 1.0 Notice1(3@188"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSRunningApplication.h0000000000000000^138#0#138#18#8113#17#-1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^117#20#117#20#5830#0#14"Semantic Issue1(3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^117#20#117#37#5830#16#-2@75"Instance method '-setHototStatus:' not found (return type defaults to 'id')-396179250#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^136#20#136#20#7217#0#14"Semantic Issue1(3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^136#38#136#52#7235#0#-2@73"Instance method '-showHUDImage:' not found (return type defaults to 'id')-396179250#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^169#12#169#12#8354#0#14"Semantic Issue1(3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^169#30#169#42#8372#0#-2@75"Instance method '-onSecurityError' not found (return type defaults to 'id')-396179250#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^257#8#257#8#11515#0#14"Semantic Issue1(3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^257#26#257#41#11533#0#-2@24"Unused variable 'source'-396179250#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^253#14#253#14#11313#0#19"Unused Entity Issue--2@22"Unused variable 'line'-396179250#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^254#14#254#14#11377#0#19"Unused Entity Issue--2@80"Instance method '-setDatabasesEnabled:' not found (return type defaults to 'id')-396179250#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^275#4#275#4#12166#0#14"Semantic Issue1(3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^275#11#275#30#12173#0#-2@75"Instance method '-setHototStatus:' not found (return type defaults to 'id')-396179250#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^318#4#318#4#13876#0#14"Semantic Issue1(3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^318#22#318#36#13894#0#-0#0#0#-19%DVTDocumentLocation4@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m0000000000000000^3429"CompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototViewController.o Hotot_mac/HototViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-generated-files.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-own-target-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-all-target-headers.hmap -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-project-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources/x86_64 -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks -include /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch -MMD -MT dependencies -MF /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototViewController.d --serialize-diagnostics /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototViewController.dia -c /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototViewController.m -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototViewController.o36"5E2E273D-EEFA-4616-8B12-98A18E0E0405-
+
+CCompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototWindowController.o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396179247.634236
+e396179250.121182
+r1
+xCompileC
+xBuild/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototWindowController.o
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototWindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototWindowController.m2289a22f379db741^dc663e32379db741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototWindowController.m0000000000000000^3441"CompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototWindowController.o Hotot_mac/HototWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-generated-files.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-own-target-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-all-target-headers.hmap -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-project-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources/x86_64 -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks -include /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch -MMD -MT dependencies -MF /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototWindowController.d --serialize-diagnostics /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototWindowController.dia -c /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/HototWindowController.m -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/HototWindowController.o36"1B1C8E4B-D2E3-4942-9F20-94D38BB0211B-
+
+CCompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/TweetWindowController.o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396179249.826379
+e396179249.925549
+r1
+xCompileC
+xBuild/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/TweetWindowController.o
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.m:37:5: warning: instance method '-closeTweetBox' not found (return type defaults to 'id') [-Wobjc-method-access]
+o    [[NSApp delegate] closeTweetBox];
+o    ^                 ~~~~~~~~~~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.m56f4d331379db741^0ff0ec31379db741^-295"/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.m:37:5: warning: instance method '-closeTweetBox' not found (return type defaults to 'id') [-Wobjc-method-access]    [[NSApp delegate] closeTweetBox];    ^                 ~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@73"Instance method '-closeTweetBox' not found (return type defaults to 'id')-396179249#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@103"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.m0000000000000000^36#4#36#4#591#0#14"Semantic Issue1(3@103"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.m0000000000000000^36#22#36#35#609#0#-0#0#0#-19%DVTDocumentLocation4@103"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.m0000000000000000^3441"CompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/TweetWindowController.o Hotot_mac/TweetWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-generated-files.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-own-target-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-all-target-headers.hmap -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-project-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources/x86_64 -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks -include /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch -MMD -MT dependencies -MF /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/TweetWindowController.d --serialize-diagnostics /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/TweetWindowController.dia -c /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/TweetWindowController.m -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/TweetWindowController.o36"C712DDB0-BA6A-4081-903E-0A1782606F51-
+
+CCompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/main.o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396179247.633422
+e396179248.800715
+r1
+xCompileC
+xBuild/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/main.o
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/main.mf549a22f379db741^44fbcc30379db741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/main.m0000000000000000^3339"CompileC Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/main.o Hotot_mac/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-generated-files.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-own-target-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-all-target-headers.hmap -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-project-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources/x86_64 -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks -include /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch -MMD -MT dependencies -MF /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/main.dia -c /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/main.m -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/main.o36"3A334985-CD45-43E4-B3BF-D9DDA9E64FC7-
+
+CCompileXIB /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HUDImage.xib
+s396179260.685944
+e396179260.832749
+r1
+xCompileXIB
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HUDImage.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HUDImage.xib:8: warning: Automatic centering of windows unsupported in Xcode versions prior to 4.0 [9]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compiling /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HUDImage.xibafb1af3c379db741^b03bd53c379db741^-211"/* com.apple.ibtool.document.warnings *//Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HUDImage.xib:8: warning: Automatic centering of windows unsupported in Xcode versions prior to 4.01(21%IDEActivityLogMessage2@73"Automatic centering of windows unsupported in Xcode versions prior to 4.0-396179260#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HUDImage.xib0000000000000000^7#18446744073709551615#7#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HUDImage.xib0000000000000000^651"CompileXIB Hotot_mac/en.lproj/HUDImage.xib    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/HUDImage.nib /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HUDImage.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"6F411E8B-88D8-4FB2-BFC5-BA465FC749E1-
+
+CCompileXIB /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototView.xib
+s396179251.492045
+e396179260.679246
+r1
+xCompileXIB
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototView.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compiling /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototView.xib47ab8233379db741^2025ae3c379db741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototView.xib0000000000000000^654"CompileXIB Hotot_mac/en.lproj/HototView.xib    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/HototView.nib /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototView.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"69D5E36A-5315-46FD-845D-27A1FBB8AD7E-
+
+CCompileXIB /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototWindow.xib
+s396179251.492065
+e396179260.678639
+r1
+xCompileXIB
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototWindow.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototWindow.xib:1: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compiling /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototWindow.xibd09b8233379db741^4f22ae3c379db741^-277"/* com.apple.ibtool.document.warnings *//Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototWindow.xib:1: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)1(21%IDEActivityLogMessage2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar396179260#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@104"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototWindow.xib0000000000000000^0#18446744073709551615#0#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@104"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototWindow.xib0000000000000000^660"CompileXIB Hotot_mac/en.lproj/HototWindow.xib    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/HototWindow.nib /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/HototWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"D3227F5D-BCC8-48A1-AAD7-036CBEE49A49-
+
+CCompileXIB /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/MainMenu.xib
+s396179260.686538
+e396179260.844393
+r1
+xCompileXIB
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/MainMenu.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compiling /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/MainMenu.xibd00ab03c379db741^113ad83c379db741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/MainMenu.xib0000000000000000^651"CompileXIB Hotot_mac/en.lproj/MainMenu.xib    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/MainMenu.nib /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/MainMenu.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"3A156D0B-843B-4E21-8AA7-4095E0E79DE9-
+
+CCompileXIB /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/TweetWindow.xib
+s396179260.850834
+e396179260.911440
+r1
+xCompileXIB
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/TweetWindow.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compiling /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/TweetWindow.xib53e7d93c379db741^7654e93c379db741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/TweetWindow.xib0000000000000000^660"CompileXIB Hotot_mac/en.lproj/TweetWindow.xib    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/TweetWindow.nib /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/TweetWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"B80BCEE5-E661-4C67-B518-C635EF3A3E97-
+
+CCopyStringsFile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/InfoPlist.strings Hotot_mac/en.lproj/InfoPlist.strings
+s396179251.453997
+e396179251.491454
+r1
+xCopyStringsFile
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/InfoPlist.strings
+xHotot_mac/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Hotot_mac/en.lproj/InfoPlist.strings984d7433379db741^9fc97e33379db741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/InfoPlist.strings0000000000000000^438"CopyStringsFile Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/InfoPlist.strings Hotot_mac/en.lproj/InfoPlist.strings    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj -- Hotot_mac/en.lproj/InfoPlist.strings36"EEA94CED-13AB-4AD5-96D8-884D77E57FBE-
+
+CCpResource ../data Build/Products/Release/Hotot.app/Contents/Resources/data
+s396179260.951723
+e396179261.769345
+r1
+xCpResource
+x../data
+xBuild/Products/Release/Hotot.app/Contents/Resources/data
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy Build/Products/Release/Hotot.app/Contents/Resources/datad0b9f33c379db741^88f3c43d379db741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/data000000000080d041^543"CpResource ../data Build/Products/Release/Hotot.app/Contents/Resources/data    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/../data /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources36"5246D2D0-AC4D-4A6B-B9F5-9B37914B5A92-
+
+CCpResource Databases.db Build/Products/Release/Hotot.app/Contents/Resources/Databases.db
+s396179260.912796
+e396179260.925367
+r1
+xCpResource
+xDatabases.db
+xBuild/Products/Release/Hotot.app/Contents/Resources/Databases.db
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Release/Hotot.app/Contents/Resources/Databases.db0800ea3c379db741^05dbec3c379db741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/Databases.db000000000080d041^561"CpResource Databases.db Build/Products/Release/Hotot.app/Contents/Resources/Databases.db    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Databases.db /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources36"7F16B3E5-2750-4F62-9D95-DD355FF6598A-
+
+CCpResource Hotot_mac/../../data/image/ic24_hotot_mono_light.png Build/Products/Release/Hotot.app/Contents/Resources/ic24_hotot_mono_light.png
+s396179260.926712
+e396179260.950373
+r1
+xCpResource
+xHotot_mac/../../data/image/ic24_hotot_mono_light.png
+xBuild/Products/Release/Hotot.app/Contents/Resources/ic24_hotot_mono_light.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy Build/Products/Release/Hotot.app/Contents/Resources/ic24_hotot_mono_light.png9b57ed3c379db741^f757f33c379db741^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/ic24_hotot_mono_light.png000000000080d041^654"CpResource Hotot_mac/../../data/image/ic24_hotot_mono_light.png Build/Products/Release/Hotot.app/Contents/Resources/ic24_hotot_mono_light.png    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/../../data/image/ic24_hotot_mono_light.png /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources36"85798BF5-FCE2-4086-B1BE-93AE9F95074D-
+
+CCpResource Hotot_mac/../hotot.icns Build/Products/Release/Hotot.app/Contents/Resources/hotot.icns
+s396179261.770664
+e396179261.793436
+r1
+xCpResource
+xHotot_mac/../hotot.icns
+xBuild/Products/Release/Hotot.app/Contents/Resources/hotot.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy Build/Products/Release/Hotot.app/Contents/Resources/hotot.icnsaf5ac53d379db741^3f1dcb3d379db741^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/hotot.icns000000000080d041^581"CpResource Hotot_mac/../hotot.icns Build/Products/Release/Hotot.app/Contents/Resources/hotot.icns    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/../hotot.icns /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources36"4FA72C98-4CC1-44AD-99F4-CA015C96C324-
+
+CCpResource Hotot_mac/en.lproj/Credits.rtf Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/Credits.rtf
+s396179251.454005
+e396179251.490676
+r1
+xCpResource
+xHotot_mac/en.lproj/Credits.rtf
+xBuild/Products/Release/Hotot.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/Credits.rtfcb4d7433379db741^2fc47e33379db741^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^614"CpResource Hotot_mac/en.lproj/Credits.rtf Build/Products/Release/Hotot.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/en.lproj/Credits.rtf /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Resources/en.lproj36"B323C0E0-74EC-4D9F-902E-99B380476A2E-
+
+CGenerateDSYMFile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app.dSYM /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/MacOS/Hotot
+s396179699.942698
+e396179700.399759
+r1
+xGenerateDSYMFile
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app.dSYM
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/MacOS/Hotot
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generate /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app.dSYM7c62f1f3389db741^8a5666f4389db741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app.dSYM/0000000000000000^473"GenerateDSYMFile Build/Products/Release/Hotot.app.dSYM Build/Products/Release/Hotot.app/Contents/MacOS/Hotot    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/MacOS/Hotot -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app.dSYM36"246CDEE0-0EB6-4FC8-8A18-08782A3713A5-
+
+CLd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/MacOS/Hotot normal x86_64
+s396179697.460853
+e396179699.934078
+r1
+xLd
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/MacOS/Hotot
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/MacOS/Hototb51676f1389db741^ac1feff3389db741^---0#0#0#--1072"Ld Build/Products/Release/Hotot.app/Contents/MacOS/Hotot normal x86_64    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks -filelist /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Objects-normal/x86_64/Hotot.LinkFileList -mmacosx-version-min=10.7 -fobjc-link-runtime -framework Sparkle -framework Growl -framework Foundation -framework CoreData -framework WebKit -framework AppKit -framework Cocoa -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/MacOS/Hotot36"3D9B55AF-22C3-4614-81FB-0A744FBBA5B5-
+
+CPBXCp Hotot_mac/Frameworks/Growl.framework Build/Products/Release/Hotot.app/Contents/Frameworks/Growl.framework
+s396179262.566185
+e396179262.713422
+r1
+xPBXCp
+xHotot_mac/Frameworks/Growl.framework
+xBuild/Products/Release/Hotot.app/Contents/Frameworks/Growl.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Products/Release/Hotot.app/Contents/Frameworks/Growl.frameworkfb07913e379db741^b1a2b63e379db741^-1028"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Growl.framework/Growl -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Growl.framework/Growl/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Growl.framework/Versions/A/Growl -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Growl.framework/Versions/A/Growl/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Growl.framework/Versions/Current/Growl -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Growl.framework/Versions/Current/Growl-0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Growl.framework000000000080d041^609"PBXCp Hotot_mac/Frameworks/Growl.framework Build/Products/Release/Hotot.app/Contents/Frameworks/Growl.framework    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Growl.framework /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks36"FE8FF8D0-8B7E-4470-AF66-31F9DA46FE47-
+
+CPBXCp Hotot_mac/Frameworks/Sparkle.framework Build/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.framework
+s396179261.801439
+e396179262.564861
+r1
+xPBXCp
+xHotot_mac/Frameworks/Sparkle.framework
+xBuild/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy Build/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.frameworkea41cd3d379db741^029a903e379db741^-2170"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Sparkle.framework/Resources/relaunch -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.framework/Resources/relaunch/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Sparkle.framework/Sparkle -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.framework/Sparkle/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Sparkle.framework/Versions/A/Resources/relaunch -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/relaunch/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Sparkle.framework/Versions/A/Sparkle -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Sparkle.framework/Versions/Current/Resources/relaunch -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/relaunch/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Sparkle.framework/Versions/Current/Sparkle -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Sparkle-0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.framework000000000080d041^615"PBXCp Hotot_mac/Frameworks/Sparkle.framework Build/Products/Release/Hotot.app/Contents/Frameworks/Sparkle.framework    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks/Sparkle.framework /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Frameworks36"393E2FC8-1800-4ED9-9981-14A467A2FAB1-
+
+CProcessInfoPlistFile /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Info.plist Hotot_mac/Hotot-Info.plist
+s396179692.526997
+e396179692.562936
+r1
+xProcessInfoPlistFile
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Info.plist
+xHotot_mac/Hotot-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process Hotot_mac/Hotot-Info.plistc2f786ec389db741^ecbd90ec389db741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Hotot-Info.plist0000000000000000^482"ProcessInfoPlistFile Build/Products/Release/Hotot.app/Contents/Info.plist Hotot_mac/Hotot-Info.plist    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    builtin-infoPlistUtility Hotot_mac/Hotot-Info.plist -genpkginfo /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app/Contents/Info.plist36"FCD43FC4-EB05-4111-9336-5804CBA22756-
+
+CProcessPCH /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch.pth Hotot_mac/Hotot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396179240.004995
+e396179247.626405
+r1
+xProcessPCH
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch.pth
+xHotot_mac/Hotot-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Hotot_mac/Hotot-Prefix.pch28460228379db741^8e5ba02f379db741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Hotot-Prefix.pch0000000000000000^3287"ProcessPCH Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch.pth Hotot_mac/Hotot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-generated-files.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-own-target-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-all-target-headers.hmap -iquote /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/Hotot-project-headers.hmap -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources/x86_64 -I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/Hotot.build/Release/Hotot.build/DerivedSources -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release -F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks --serialize-diagnostics /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch.dia -c /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Hotot-Prefix.pch -o /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch.pth -MMD -MT dependencies -MF /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/PrecompiledHeaders/Hotot-Prefix-bxlzacefokikrqbenrkxsiammcvq/Hotot-Prefix.pch.d36"8F8225BB-B297-4B1A-80B0-B40B3105F9EE-
+
+CProcessPCH /Users/geos/Library/Developer/Xcode/DerivedData/Hotot-ccecfcwqdiuzipekdafqoualbdbm/Index/PrecompiledHeaders/Hotot-Prefix-gesakhnorkhowrgqsmpcglonhscc_ast/Hotot-Prefix.pch.pth Hotot_mac/Hotot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app
+s396179700.427179
+e396179700.563913
+r1
+xTouch
+x/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Touch /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.appf9686df4389db741^247b90f4389db741^---0#0#0#--209"Touch Build/Products/Release/Hotot.app    cd /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac    /usr/bin/touch -c /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Products/Release/Hotot.app36"FE2EBC1D-AFF4-4BCC-BD2F-CF27A4970FA2-
+

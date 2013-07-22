@@ -1,0 +1,27 @@
+Contents of /Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Hotot-Prefix.pch
+
+x86_64-apple-darwin11.4.2
+-x
+objective-c
+-arch
+x86_64
+-fmessage-length=0
+-std=gnu99
+-fpascal-strings
+-Os
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+-fasm-blocks
+-fstrict-aliasing
+-mmacosx-version-min=10.7
+-g
+-fvisibility=hidden
+-iquote
+-iquote
+-I/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/ArchiveIntermediates/Hotot_mac/BuildProductsPath/Release/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/ArchiveIntermediates/Hotot_mac/BuildProductsPath/Release
+-F/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Hotot_mac/Frameworks
+SDK_PRODUCT_BUILD_VERSION=12D75

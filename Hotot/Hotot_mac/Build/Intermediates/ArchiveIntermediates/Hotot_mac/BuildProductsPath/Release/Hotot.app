@@ -1,0 +1,1 @@
+/Users/geos/Dropbox/Coding/objc/Hotot/Hotot/Hotot_mac/Build/Intermediates/ArchiveIntermediates/Hotot_mac/InstallationBuildProductsLocation/Applications/Hotot.app
