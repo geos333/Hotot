@@ -30,9 +30,10 @@
 		B721B344179D2D4C009EA9AC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B721B33D179D2D4C009EA9AC /* MainMenu.xib */; };
 		B721B345179D2D4C009EA9AC /* TweetWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B721B33F179D2D4C009EA9AC /* TweetWindow.xib */; };
 		B721B347179D2D6D009EA9AC /* Databases.db in Resources */ = {isa = PBXBuildFile; fileRef = B721B346179D2D6D009EA9AC /* Databases.db */; };
-		B721B34F179D2E90009EA9AC /* ic24_hotot_mono_light.png in Resources */ = {isa = PBXBuildFile; fileRef = B721B34E179D2E90009EA9AC /* ic24_hotot_mono_light.png */; };
 		B721B351179D2FC1009EA9AC /* data in Resources */ = {isa = PBXBuildFile; fileRef = B721B350179D2FC1009EA9AC /* data */; };
-		B721B353179D307B009EA9AC /* hotot.icns in Resources */ = {isa = PBXBuildFile; fileRef = B721B352179D307A009EA9AC /* hotot.icns */; };
+		B7A11CCC179D77C90094547A /* hotot.icns in Resources */ = {isa = PBXBuildFile; fileRef = B7A11CCB179D77C90094547A /* hotot.icns */; };
+		B7A11CCF179D77DD0094547A /* ic24_hotot_mono_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A11CCD179D77DD0094547A /* ic24_hotot_mono_dark.png */; };
+		B7A11CD0179D77DD0094547A /* ic24_hotot_mono_light_blink.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A11CCE179D77DD0094547A /* ic24_hotot_mono_light_blink.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,9 +81,10 @@
 		B721B33E179D2D4C009EA9AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B721B340179D2D4C009EA9AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TweetWindow.xib; sourceTree = "<group>"; };
 		B721B346179D2D6D009EA9AC /* Databases.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Databases.db; sourceTree = SOURCE_ROOT; };
-		B721B34E179D2E90009EA9AC /* ic24_hotot_mono_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic24_hotot_mono_light.png; path = ../../data/image/ic24_hotot_mono_light.png; sourceTree = "<group>"; };
 		B721B350179D2FC1009EA9AC /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../data; sourceTree = "<group>"; };
-		B721B352179D307A009EA9AC /* hotot.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = hotot.icns; path = ../hotot.icns; sourceTree = "<group>"; };
+		B7A11CCB179D77C90094547A /* hotot.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = hotot.icns; sourceTree = "<group>"; };
+		B7A11CCD179D77DD0094547A /* ic24_hotot_mono_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic24_hotot_mono_dark.png; path = icons/ic24_hotot_mono_dark.png; sourceTree = SOURCE_ROOT; };
+		B7A11CCE179D77DD0094547A /* ic24_hotot_mono_light_blink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic24_hotot_mono_light_blink.png; path = icons/ic24_hotot_mono_light_blink.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		B721B2F4179D282C009EA9AC = {
 			isa = PBXGroup;
 			children = (
+				B7A11CCB179D77C90094547A /* hotot.icns */,
 				B721B350179D2FC1009EA9AC /* data */,
 				B721B306179D282C009EA9AC /* Hotot_mac */,
 				B721B2FF179D282C009EA9AC /* Frameworks */,
@@ -178,8 +181,8 @@
 		B721B336179D2CAC009EA9AC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B721B352179D307A009EA9AC /* hotot.icns */,
-				B721B34E179D2E90009EA9AC /* ic24_hotot_mono_light.png */,
+				B7A11CCD179D77DD0094547A /* ic24_hotot_mono_dark.png */,
+				B7A11CCE179D77DD0094547A /* ic24_hotot_mono_light_blink.png */,
 				B721B346179D2D6D009EA9AC /* Databases.db */,
 				B721B337179D2D4C009EA9AC /* HototView.xib */,
 				B721B339179D2D4C009EA9AC /* HototWindow.xib */,
@@ -250,9 +253,10 @@
 				B721B344179D2D4C009EA9AC /* MainMenu.xib in Resources */,
 				B721B345179D2D4C009EA9AC /* TweetWindow.xib in Resources */,
 				B721B347179D2D6D009EA9AC /* Databases.db in Resources */,
-				B721B34F179D2E90009EA9AC /* ic24_hotot_mono_light.png in Resources */,
 				B721B351179D2FC1009EA9AC /* data in Resources */,
-				B721B353179D307B009EA9AC /* hotot.icns in Resources */,
+				B7A11CCC179D77C90094547A /* hotot.icns in Resources */,
+				B7A11CCF179D77DD0094547A /* ic24_hotot_mono_dark.png in Resources */,
+				B7A11CD0179D77DD0094547A /* ic24_hotot_mono_light_blink.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

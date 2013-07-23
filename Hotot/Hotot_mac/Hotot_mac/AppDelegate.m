@@ -19,7 +19,7 @@
     // Create the directory
     NSFileManager *fileManager = [NSFileManager defaultManager];
     
-    NSString *folder = @"~/Library/Application Support/Hotot-For-Mac/Databases";
+    NSString *folder = @"~/Library/Application Support/Hotot/Databases";
     folder = [folder stringByExpandingTildeInPath];
     
     if ([fileManager fileExistsAtPath: folder] == NO) {
@@ -27,7 +27,7 @@
     }
     
     // Retrieve the databases.db
-    NSString *toPath = @"~/Library/Application Support/Hotot-For-Mac/Databases/Databases.db";
+    NSString *toPath = @"~/Library/Application Support/Hotot/Databases/Databases.db";
     toPath = [toPath stringByExpandingTildeInPath];
     DLog(@"%@", toPath);
     if ([fileManager fileExistsAtPath: toPath] == NO) {
@@ -71,12 +71,14 @@
 
 - (BOOL)applicationShouldHandleReopen:(NSApplication *)sender hasVisibleWindows:(BOOL)flag {
     if (flag) {
+        [[hototWindowController window] orderFront:self];
         return NO;
     }else{
         [[hototWindowController window] orderFront:self];
         return YES;
     }
 }
+
 
 - (void)didEndSecurityError:(NSAlert *)alert returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo {
     [NSApp terminate:self];
@@ -100,7 +102,12 @@
 }
 - (IBAction)onAboutWindow:(id)sender {
     [hototWindowController showAboutWindow];
+    
 }
+
+
+
+
 //Hide and Show window by status icon
 - (IBAction)HideShowWindow:(id)sender {
     
@@ -138,19 +145,23 @@
 }
 
 
-
 - (void)dealloc {
     [tweetWindowController dealloc];
     [hototWindowController dealloc];
     [super dealloc];
 }
 //status menu
+
 -(void)awakeFromNib{
     statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain];
+   
     [statusItem setMenu:statusMenu];
     [statusItem setImage:[NSImage imageNamed:@"ic24_hotot_mono_light.png"]];
     [statusItem setHighlightMode:YES];
     [statusItem setAction:@selector(statusItemClicked:)];
+
 }
+
+
 @end
 

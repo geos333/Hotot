@@ -276,7 +276,7 @@
     [prefs setDatabasesEnabled:YES];
     
     // Setup the database directory
-    NSString* datadir = @"~/Library/Application Support/Hotot-For-Mac/Databases";
+    NSString* datadir = @"~/Library/Application Support/Hotot/Databases";
  	[defaults setObject:datadir forKey:@"WebDatabaseDirectory"];
  	[defaults setObject:datadir forKey:@"WebKitLocalStorageDatabasePathPreferenceKey"];
     

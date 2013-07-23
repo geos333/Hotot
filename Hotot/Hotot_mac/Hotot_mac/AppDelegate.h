@@ -14,6 +14,7 @@
 
 #import "hotot.h"
 
+
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
     HototWindowController *hototWindowController;
     TweetWindowController *tweetWindowController;
@@ -22,7 +23,7 @@
     //status menu
     IBOutlet NSMenu *statusMenu;
     NSStatusItem * statusItem;
-    
+   
 }
 
 @end
