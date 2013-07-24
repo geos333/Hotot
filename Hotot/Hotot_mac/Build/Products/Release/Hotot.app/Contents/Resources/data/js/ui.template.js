@@ -32,6 +32,9 @@ tweet_t:
     </div>\
     <ul class="tweet_bar">\
         <li>\
+        <li>\
+        <a class="tweet_bar_btn tweet_translate_btn" title="Translate this tweet" href="#reply" data-i18n-title="reply"></a>\
+        </li><li>\
         <a class="tweet_bar_btn tweet_reply_btn" title="Reply this tweet" href="#reply" data-i18n-title="reply"></a>\
         </li><li>\
         <a class="tweet_bar_btn tweet_fav_btn" title="Fav/Un-fav this tweet" href="#fav" data-i18n-title="fav_or_unfav"></a>\
@@ -92,6 +95,9 @@ retweeted_by_t:
     </div>\
     <ul class="tweet_bar">\
         <li>\
+        <li>\
+        <a class="tweet_bar_btn tweet_translate_btn" title="Translate this tweet" href="#reply" data-i18n-title="reply"></a>\
+        </li><li>\
         <a class="tweet_bar_btn tweet_reply_btn" title="Reply this tweet" href="#reply" data-i18n-title="reply"></a>\
         </li><li>\
         <a class="tweet_bar_btn tweet_fav_btn" title="Fav/Un-fav this tweet" href="#fav" data-i18n-title="fav_or_unfav"></a>\
@@ -173,6 +179,9 @@ search_t:
     </div>\
     <ul class="tweet_bar">\
         <li>\
+        <li>\
+        <a class="tweet_bar_btn tweet_translate_btn" title="Translate this tweet" href="#reply" data-i18n-title="reply"></a>\
+        </li><li>\
         <a class="tweet_bar_btn tweet_reply_btn" title="Reply this tweet" href="#reply" data-i18n-title="reply"></a>\
         </li><li>\
         <a class="tweet_bar_btn tweet_fav_btn" title="Fav/Un-fav this tweet" href="#fav" data-i18n-title="fav_or_unfav"></a>\
@@ -762,7 +771,6 @@ function form_dm(dm_obj, pagename) {
     return ui.Template.render(ui.Template.message_t, m);
 },
 
-// This function returns the html for the given tweet_obj.
 form_tweet:
 function form_tweet (tweet_obj, pagename, in_thread) {
     var retweet_name = '';
@@ -771,7 +779,6 @@ function form_tweet (tweet_obj, pagename, in_thread) {
     var id = tweet_obj.id_str;
     if (tweet_obj.hasOwnProperty('retweeted_status')) {
         retweet_name = tweet_obj['user']['screen_name'];
-        tweet_obj['retweeted_status'].favorited = tweet_obj.favorited;  // The favorite status of the embedded tweet is not reliable, use outer one.
         tweet_obj = tweet_obj['retweeted_status'];
         retweet_id = tweet_obj.id_str;
     }
@@ -831,32 +838,6 @@ function form_tweet (tweet_obj, pagename, in_thread) {
             link = tweet_obj.entities.urls[0].expanded_url;
         }
     }
-    
-	var text = ui.Template.form_text(tweet_obj);
-    // if the tweet contains user_mentions (which are provided by the Twitter
-    // API, not by the StatusNet API), it will here replace the 
-    // contents of the 'who_ref'-a-tag by the full name of this user.
-
-    if (tweet_obj.entities && tweet_obj.entities.user_mentions) {
-        for (var i = 0, l = tweet_obj.entities.user_mentions.length; i < l; i+=1)
-        {
-            // hotot_log('form_tweet', 'user mention: ' + tweet_obj.entities.user_mentions[i].screen_name);
-            var screen_name = tweet_obj.entities.user_mentions[i].screen_name;
-            var name = tweet_obj.entities.user_mentions[i].name.replace(/"/g, '&quot;');
-            var reg_ulink = new RegExp('>(' + screen_name + ')<', 'ig');
-            text = text.replace(reg_ulink, ' title="' + name + '">$1<')
-        }
-        // If we get here, and there are still <a who_href="...">-tags
-        // without title attribute, the user name was probably misspelled. 
-        // If I then remove the tag, the incorrect user name is not 
-        // highlighted any more, which fixes #415 for twitter.
-        // (It does not work for identi.ca, because the identi.ca API
-        // does not provide user_mentions.)
-
-        var re = /\<a class=\"who_href\" href=\"[^"]*\"\>([^<]*)\<\/a\>/gi
-        text = text.replace(re, '$1');
-        // hotot_log('form_tweet', 'resulting text: ' + text);
-    }
 
     var m = ui.Template.tweet_m;
     m.ID = pagename+'-'+id;
@@ -869,7 +850,7 @@ function form_tweet (tweet_obj, pagename, in_thread) {
     m.USER_NAME = tweet_obj.user.name;
     m.DESCRIPTION = tweet_obj.user.description;
     m.PROFILE_IMG = tweet_obj.user.profile_image_url;
-    m.TEXT = text;
+    m.TEXT = ui.Template.form_text(tweet_obj);
     m.ALT = ui.Template.convert_chars(alt_text);
     m.SOURCE = tweet_obj.source.replace('href', 'target="_blank" href');
     m.SCHEME = scheme;
@@ -902,8 +883,19 @@ function form_tweet (tweet_obj, pagename, in_thread) {
     m.TRANS_View_more_conversation = _('view_more_conversation');
     m.TWEET_BASE_URL = conf.current_name.split('@')[1] == 'twitter'?'https://twitter.com/' + tweet_obj.user.screen_name + '/status':'https://identi.ca/notice';
     m.LINK = link;
+    var msg = ui.Template.render(ui.Template.tweet_t, m);
 
-    return ui.Template.render(ui.Template.tweet_t, m);
+    if (tweet_obj.entities && tweet_obj.entities.user_mentions) {
+        for (var i = 0, l = tweet_obj.entities.user_mentions.length; i < l; i+=1)
+        {
+            var screen_name = tweet_obj.entities.user_mentions[i].screen_name;
+            var name = tweet_obj.entities.user_mentions[i].name.replace(/"/g, '&quot;');
+            var reg_ulink = new RegExp('>(' + screen_name + ')<', 'ig');
+            msg = msg.replace(reg_ulink, ' title="' + name + '">$1<')
+        }
+    }
+
+    return msg;
 },
 
 form_retweeted_by:
@@ -914,7 +906,6 @@ function form_retweeted_by(tweet_obj, pagename) {
     var id = tweet_obj.id_str;
     if (tweet_obj.hasOwnProperty('retweeted_status')) {
         retweet_name = tweet_obj['user']['screen_name'];
-        tweet_obj['retweeted_status'].favorited = tweet_obj.favorited;  // The favorite status of the embedded tweet is not reliable, use outer one.
         tweet_obj = tweet_obj['retweeted_status'];
         retweet_id = tweet_obj.id_str;
     }
@@ -1203,20 +1194,10 @@ function convert_chars(text) {
     return text;
 },
 
-// This function applies some basic replacements to tweet.text, and returns
-// the resulting string.
-// This is not the final text that will appear in the UI, form_tweet will also do
-// some modifications. from_tweet will search for the a-tags added in this
-// function, to do the modifications.
 form_text:
 function form_text(tweet) {
-    //hotot_log('form_text in', tweet.text);
     var text = ui.Template.convert_chars(tweet.text);
-    text = text.replace(ui.Template.reg_link_g, function replace_url(url) {
-		if (url.length > 51) url_short = url.substring(0,48) + '...';
-		else url_short = url;
-		return ' <a href="'+url+'" target="_blank">' + url_short + '</a>';
-	});
+    text = text.replace(ui.Template.reg_link_g, ' <a href="$1" target="_blank">$1</a>');
     text = text.replace(/href="www/g, 'href="http://www');
     text = text.replace(ui.Template.reg_list
         , '$1@<a class="list_href" href="#$2">$2</a>');
@@ -1238,15 +1219,12 @@ function form_text(tweet) {
              + ui.Template.form_preview(tweet)
              + '</div>';
     }
-    //hotot_log('form_text out', text);
     return text;
 },
 
 form_text_raw:
 function form_text_raw(raw_text) {
     var text = raw_text;
-    text = text.replace(/</g, "&lt;");
-    text = text.replace(/>/g, "&gt;");
     text = text.replace(ui.Template.reg_link_g, ' <a href="$1" target="_blank">$1</a>');
     text = text.replace(/href="www/g, 'href="http://www');
     text = text.replace(ui.Template.reg_list

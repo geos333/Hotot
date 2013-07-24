@@ -220,15 +220,6 @@ function load_people_success(self, json) {
 
 load_list_success:
 function load_list_success(self, json) {
-    var ret = ui.Main.add_people(self, json);
-    if (0 < self.incoming_num) {
-        ui.Slider.set_unread(self.name);
-    }
-    return ret;
-},
-
-load_listed_list_success:
-function load_listed_list_success(self, json) {
     var ret = ui.Main.add_people(self, json.lists);
     if (0 < self.incoming_num) {
         ui.Slider.set_unread(self.name);
@@ -254,8 +245,8 @@ function loadmore_people_success(self, json) {
     return ret;
 },
 
-loadmore_listed_list_success:
-function loadmore_listed_list_success(self, json) {
+loadmore_list_success:
+function loadmore_list_success(self, json) {
     var ret = ui.Main.add_people(self, json.lists);
     if (0 < self.incoming_num) {
         ui.Slider.set_unread(self.name);
@@ -312,9 +303,6 @@ function add_tweets(self, json_obj, reversion, ignore_kismet) {
     // apply kismet filter
     if (ignore_kismet == undefined || ignore_kismet == false) {
         if (self.name.indexOf('kismet_') != 0){
-			for(var i=0;i<json_obj.length;i++){
-				json_obj[i].column =/^[^-]*/.exec(self.name)[0] ;
-			}
             json_obj = kismet.filter(json_obj);
         }
     }
@@ -663,6 +651,28 @@ function bind_tweet_action(id) {
     });
 
     // type: tweet
+    //----------geos code---------------------------------------------------
+//---------translate button----------------------------------------------
+$(id).find('.tweet_translate_btn').click(function(ev) {
+   var dst_lang = 'en';
+    ext.HototTranslate.prefs.get('dst_lang', function (key, val) {
+        if (val == null) {
+            ext.HototTranslate.prefs.set('dst_lang', dst_lang);
+        } else {
+            dst_lang = val;
+            ext.HototTranslate.do_translate_tweet(ui.Main.active_tweet_id, dst_lang, ev);
+        }
+});
+})
+ .mouseenter(function (ev) {
+        if (conf.get_current_profile().preferences.use_alt_reply) {
+            $(this).attr('title', 'Translate All.');
+        } else {
+            $(this).attr('title', 'Translate this tweet.');
+        }
+ });
+ //--------------------end geos code---------------------------------------------
+
     $(id).find('.tweet_reply_btn').click(function(ev) {
         if (conf.get_current_profile().preferences.use_alt_reply) {
             ui.Main.on_reply_all_click(this, ui.Main.active_tweet_id, ev);

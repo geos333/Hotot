@@ -283,8 +283,8 @@ pre {
 }
 
 #status_image_preview_wrapper {
-	max-height: 161px;
-	max-width: 145px;
+	height: 161px;
+	width: 145px;
 	float: left;
 	padding: 5px;
 	box-sizing: border-box;
@@ -303,8 +303,8 @@ pre {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	max-height: 161px;
-	max-width: 145px;
+	height: 161px;
+	width: 145px;
 }
 
 #status_smiley {
@@ -944,6 +944,9 @@ label {
 	background-repeat: no-repeat;
 	background-image: url(../image/tweet_ctrl_icons.png);
 	background-position-y: -48px;
+}
+.tweet_translate_btn {
+    background-position-x: -168px;
 }
 .tweet_reply_btn {
 	background-position-x: 0px;
@@ -1974,8 +1977,8 @@ label {
 }
 
 .vcard_tabs_page td:first-child {
+	width: 50px;
 	text-align: left;
-	white-space: nowrap;
 }
 
 
