@@ -34,6 +34,7 @@
 		B7A11CCC179D77C90094547A /* hotot.icns in Resources */ = {isa = PBXBuildFile; fileRef = B7A11CCB179D77C90094547A /* hotot.icns */; };
 		B7A11CCF179D77DD0094547A /* ic24_hotot_mono_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A11CCD179D77DD0094547A /* ic24_hotot_mono_dark.png */; };
 		B7A11CD0179D77DD0094547A /* ic24_hotot_mono_light_blink.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A11CCE179D77DD0094547A /* ic24_hotot_mono_light_blink.png */; };
+		B7AA4BB1179FCC9100A5CCBC /* ic24_hotot.png in Resources */ = {isa = PBXBuildFile; fileRef = B7AA4BB0179FCC9100A5CCBC /* ic24_hotot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +86,7 @@
 		B7A11CCB179D77C90094547A /* hotot.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = hotot.icns; sourceTree = "<group>"; };
 		B7A11CCD179D77DD0094547A /* ic24_hotot_mono_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic24_hotot_mono_dark.png; path = icons/ic24_hotot_mono_dark.png; sourceTree = SOURCE_ROOT; };
 		B7A11CCE179D77DD0094547A /* ic24_hotot_mono_light_blink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic24_hotot_mono_light_blink.png; path = icons/ic24_hotot_mono_light_blink.png; sourceTree = SOURCE_ROOT; };
+		B7AA4BB0179FCC9100A5CCBC /* ic24_hotot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic24_hotot.png; path = ../../data/image/ic24_hotot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		B721B336179D2CAC009EA9AC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B7AA4BB0179FCC9100A5CCBC /* ic24_hotot.png */,
 				B7A11CCD179D77DD0094547A /* ic24_hotot_mono_dark.png */,
 				B7A11CCE179D77DD0094547A /* ic24_hotot_mono_light_blink.png */,
 				B721B346179D2D6D009EA9AC /* Databases.db */,
@@ -257,6 +260,7 @@
 				B7A11CCC179D77C90094547A /* hotot.icns in Resources */,
 				B7A11CCF179D77DD0094547A /* ic24_hotot_mono_dark.png in Resources */,
 				B7A11CD0179D77DD0094547A /* ic24_hotot_mono_light_blink.png in Resources */,
+				B7AA4BB1179FCC9100A5CCBC /* ic24_hotot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

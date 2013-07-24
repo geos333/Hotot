@@ -156,7 +156,7 @@
     statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain];
    
     [statusItem setMenu:statusMenu];
-    [statusItem setImage:[NSImage imageNamed:@"ic24_hotot_mono_light.png"]];
+    [statusItem setImage:[NSImage imageNamed:@"ic24_hotot.png"]];
     [statusItem setHighlightMode:YES];
     [statusItem setAction:@selector(statusItemClicked:)];
 
